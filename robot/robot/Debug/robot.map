@@ -1,0 +1,1188 @@
+Archive member included to satisfy reference by file (symbol)
+
+D:\c4m\robot\robot\libc4m.a(device.o)
+                              main.o (C4M_DEVICE_set)
+D:\c4m\robot\robot\libc4m.a(std_isr.o)
+                              (USE_C4MLIB_STD_ISR)
+D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+                              D:\c4m\robot\robot\libc4m.a(std_isr.o) (UART1_Inst)
+D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+                              D:\c4m\robot\robot\libc4m.a(std_isr.o) (SPI_SlaveInst)
+D:\c4m\robot\robot\libc4m.a(tim.o)
+                              RC16M128_Lib.o (TIM_fpt)
+D:\c4m\robot\robot\libc4m.a(isr.o)
+                              (USE_C4MLIB_INTERRUPT)
+D:\c4m\robot\robot\libc4m.a(eeprom.o)
+                              D:\c4m\robot\robot\libc4m.a(device.o) (EEPROM_get)
+D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+                              D:\c4m\robot\robot\libc4m.a(std_isr.o) (ExtIntStrList_p)
+D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+                              D:\c4m\robot\robot\libc4m.a(std_isr.o) (PwmIntStrList_p)
+D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+                              D:\c4m\robot\robot\libc4m.a(std_isr.o) (TwiIntStrList_p)
+D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+                              D:\c4m\robot\robot\libc4m.a(std_isr.o) (UartRxIntStrList_p)
+D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+                              D:\c4m\robot\robot\libc4m.a(std_isr.o) (SpiIntStrList_p)
+D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+                              D:\c4m\robot\robot\libc4m.a(std_isr.o) (TimIntStrList_p)
+D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+                              D:\c4m\robot\robot\libc4m.a(std_isr.o) (AdcIntStrList_p)
+D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+                              D:\c4m\robot\robot\libc4m.a(std_isr.o) (HWInt_step)
+D:\c4m\robot\robot\libc4m.a(stdio.o)
+                              D:\c4m\robot\robot\libc4m.a(device.o) (C4M_STDIO_init)
+D:\c4m\robot\robot\libc4m.a(hal_time.o)
+                              D:\c4m\robot\robot\libc4m.a(hal_uart.o) (HAL_get_expired_time_ms)
+D:\c4m\robot\robot\libc4m.a(asabus.o)
+                              D:\c4m\robot\robot\libc4m.a(hal_spi.o) (ASABUS_ID_set)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
+                              main.o (__divmodhi4)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+                              D:\c4m\robot\robot\libc4m.a(hal_time.o) (__udivmodsi4)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o (exit)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+                              main.o (__do_copy_data)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(iob.o)
+                              D:\c4m\robot\robot\libc4m.a(stdio.o) (__iob)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                              (vfprintf)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfscanf_std.o)
+                              (vfscanf)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(isspace.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfscanf_std.o) (isspace)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strchr_P.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfscanf_std.o) (strchr_P)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (strnlen_P)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (strnlen)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fgetc.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfscanf_std.o) (fgetc)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fputc.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (fputc)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ungetc.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfscanf_std.o) (ungetc)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (__ultoa_invert)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(isspace.o) (__ctype_isfalse)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eerd_block.o)
+                              D:\c4m\robot\robot\libc4m.a(eeprom.o) (eeprom_read_block)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eewr_block.o)
+                              D:\c4m\robot\robot\libc4m.a(eeprom.o) (eeprom_write_block)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eewr_byte.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eewr_block.o) (eeprom_write_r18)
+
+Allocating common symbols
+Common symbol       size              file
+
+ASAConfigStr_inst   0x1               D:\c4m\robot\robot\libc4m.a(device.o)
+PwmIntStrList_p     0x8               D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+TwiIntStrList_p     0x2               D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+SpiIntStrList_p     0x2               D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+ExtIntStrList_p     0x10              D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+UartRxIntStrList_p  0x4               D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+TimIntStrList_p     0x8               D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+AdcIntStrList_p     0x2               D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+TimerCntStr_inst    0xb5              main.o
+HAL_time_global     0x4               D:\c4m\robot\robot\libc4m.a(hal_time.o)
+UartTxIntStrList_p  0x4               D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+__iob               0x6               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(iob.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ COMMON         0x00000000       0xb5 main.o
+ .text          0x00000000        0x0 RC16M128_Lib.o
+ .data          0x00000000        0x0 RC16M128_Lib.o
+ .bss           0x00000000        0x0 RC16M128_Lib.o
+ .text.RC16M128_Servo_get
+                0x00000000       0xe2 RC16M128_Lib.o
+ .bss.ServoEnableSetRegisterH
+                0x00000000        0x1 RC16M128_Lib.o
+ .bss.ServoEnableSetRegisterL
+                0x00000000        0x1 RC16M128_Lib.o
+ .bss.ServoPWMOutputDataH
+                0x00000000        0x1 RC16M128_Lib.o
+ .bss.ServoPWMOutputDataL
+                0x00000000        0x1 RC16M128_Lib.o
+ .data          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(device.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(device.o)
+ .data          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(std_isr.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(std_isr.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .data          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(tim.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(tim.o)
+ .data          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(isr.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(isr.o)
+ .data          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(eeprom.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(eeprom.o)
+ .text          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+ .data          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+ .text          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+ .data          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+ .text          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+ .data          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+ .text          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+ .data          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+ .text          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+ .data          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+ .text          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+ .data          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+ .text          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+ .data          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+ .data          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(stdio.o)
+ .data          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+ .data          0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(asabus.o)
+ .bss           0x00000000        0x0 D:\c4m\robot\robot\libc4m.a(asabus.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(iob.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(iob.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(iob.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfscanf_std.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfscanf_std.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfscanf_std.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(isspace.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(isspace.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(isspace.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strchr_P.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strchr_P.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strchr_P.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fgetc.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fgetc.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fgetc.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ungetc.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ungetc.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ungetc.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eerd_block.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eerd_block.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eerd_block.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eewr_block.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eewr_block.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eewr_block.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eewr_byte.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eewr_byte.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eewr_byte.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800100         0x00001000         rw !x
+eeprom           0x00810000         0x00001000         rw !x
+fuse             0x00820000         0x00000003         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
+LOAD main.o
+LOAD RC16M128_Lib.o
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a
+LOAD D:\c4m\robot\robot\libc4m.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a
+END GROUP
+                0x00000000                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x00800100]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800100
+                [0x00020000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x00001000]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xff00
+                [0x00001000]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x2ada
+ *(.vectors)
+ .vectors       0x00000000       0x8c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000008c                . = ALIGN (0x2)
+                0x0000008c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000008c        0x0 linker stubs
+ *(.trampolines*)
+                0x0000008c                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ .progmem.data  0x0000008c        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfscanf_std.o)
+ *(.progmem*)
+                0x00000098                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000098                __ctors_start = .
+ *(.ctors)
+                0x00000098                __ctors_end = .
+                0x00000098                __dtors_start = .
+ *(.dtors)
+                0x00000098                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000098        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
+                0x00000098                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000098        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000a4       0x1a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+                0x000000a4                __do_copy_data
+ .init4         0x000000be       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+                0x000000be                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000ce        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
+ *(.init9)
+ *(.text)
+ .text          0x000000d6       0x16 D:\c4m\robot\robot\libc4m.a(device.o)
+                0x000000d6                C4M_DEVICE_set
+ .text          0x000000ec      0x1ee D:\c4m\robot\robot\libc4m.a(std_isr.o)
+                0x000000ec                USE_C4MLIB_STD_ISR
+                0x000000ee                TIMER0_OVF_vect_routine1
+                0x00000100                TIMER0_COMP_vect_routine1
+                0x00000112                TIMER1_OVF_vect_routine1
+                0x00000124                TIMER1_COMPA_vect_routine1
+                0x00000136                TIMER1_COMPB_vect_routine1
+                0x00000138                TIMER1_COMPC_vect_routine1
+                0x0000013a                TIMER2_OVF_vect_routine1
+                0x0000014c                TIMER2_COMP_vect_routine1
+                0x0000015e                TIMER3_OVF_vect_routine1
+                0x00000170                TIMER3_COMPA_vect_routine1
+                0x00000182                TIMER3_COMPB_vect_routine1
+                0x00000184                TIMER3_COMPC_vect_routine1
+                0x00000186                INT0_vect_routine1
+                0x00000198                INT1_vect_routine1
+                0x000001aa                INT2_vect_routine1
+                0x000001bc                INT3_vect_routine1
+                0x000001ce                INT4_vect_routine1
+                0x000001e0                INT5_vect_routine1
+                0x000001f2                INT6_vect_routine1
+                0x00000204                INT7_vect_routine1
+                0x00000216                TWI_vect_routine1
+                0x00000228                SPI_STC_vect_routine1
+                0x00000248                USART0_TX_vect_routine1
+                0x00000268                USART0_RX_vect_routine1
+                0x00000288                USART1_TX_vect_routine1
+                0x000002a8                USART1_RX_vect_routine1
+                0x000002c8                ADC_vect_routine1
+ .text          0x000002da      0x392 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .text          0x0000066c      0x380 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .text          0x000009ec      0x1a2 D:\c4m\robot\robot\libc4m.a(tim.o)
+                0x000009ec                TIM_fpt
+                0x000009ec                PWM_fpt
+                0x00000a90                TIM_fgt
+                0x00000a90                PWM_fgt
+                0x00000ac4                TIM_get
+                0x00000b0c                TIM_put
+                0x00000b0c                PWM_put
+                0x00000b0c                PWM_get
+ .text          0x00000b8e      0xaf6 D:\c4m\robot\robot\libc4m.a(isr.o)
+                0x00000b8e                USE_C4MLIB_INTERRUPT
+                0x00000b90                __INT0_vect_routine1
+                0x00000b92                INT0_vect_routine
+                0x00000b92                __INT0_vect_routine
+                0x00000b94                __vector_1
+                0x00000be2                __INT1_vect_routine1
+                0x00000be4                __INT1_vect_routine
+                0x00000be4                INT1_vect_routine
+                0x00000be6                __vector_2
+                0x00000c34                __INT2_vect_routine1
+                0x00000c36                __INT2_vect_routine
+                0x00000c36                INT2_vect_routine
+                0x00000c38                __vector_3
+                0x00000c86                __INT3_vect_routine1
+                0x00000c88                INT3_vect_routine
+                0x00000c88                __INT3_vect_routine
+                0x00000c8a                __vector_4
+                0x00000cd8                __INT4_vect_routine1
+                0x00000cda                __INT4_vect_routine
+                0x00000cda                INT4_vect_routine
+                0x00000cdc                __vector_5
+                0x00000d2a                __INT5_vect_routine1
+                0x00000d2c                __INT5_vect_routine
+                0x00000d2c                INT5_vect_routine
+                0x00000d2e                __vector_6
+                0x00000d7c                __INT6_vect_routine1
+                0x00000d7e                INT6_vect_routine
+                0x00000d7e                __INT6_vect_routine
+                0x00000d80                __vector_7
+                0x00000dce                __INT7_vect_routine1
+                0x00000dd0                INT7_vect_routine
+                0x00000dd0                __INT7_vect_routine
+                0x00000dd2                __vector_8
+                0x00000e20                __TIMER2_COMP_vect_routine1
+                0x00000e22                TIMER2_COMP_vect_routine
+                0x00000e22                __TIMER2_COMP_vect_routine
+                0x00000e24                __vector_9
+                0x00000e72                __TIMER2_OVF_vect_routine1
+                0x00000e74                __TIMER2_OVF_vect_routine
+                0x00000e74                TIMER2_OVF_vect_routine
+                0x00000e76                __vector_10
+                0x00000ec4                __TIMER1_CAPT_vect_routine1
+                0x00000ec4                TIMER1_CAPT_vect_routine1
+                0x00000ec6                __TIMER1_CAPT_vect_routine
+                0x00000ec6                TIMER1_CAPT_vect_routine
+                0x00000ec8                __vector_11
+                0x00000f16                __TIMER1_COMPA_vect_routine1
+                0x00000f18                __TIMER1_COMPA_vect_routine
+                0x00000f18                TIMER1_COMPA_vect_routine
+                0x00000f1a                __vector_12
+                0x00000f68                __TIMER1_COMPB_vect_routine1
+                0x00000f6a                __TIMER1_COMPB_vect_routine
+                0x00000f6a                TIMER1_COMPB_vect_routine
+                0x00000f6c                __vector_13
+                0x00000fba                __TIMER1_OVF_vect_routine1
+                0x00000fbc                TIMER1_OVF_vect_routine
+                0x00000fbc                __TIMER1_OVF_vect_routine
+                0x00000fbe                __vector_14
+                0x0000100c                __TIMER0_COMP_vect_routine1
+                0x0000100e                __TIMER0_COMP_vect_routine
+                0x0000100e                TIMER0_COMP_vect_routine
+                0x00001010                __vector_15
+                0x0000105e                __TIMER0_OVF_vect_routine1
+                0x00001060                __TIMER0_OVF_vect_routine
+                0x00001060                TIMER0_OVF_vect_routine
+                0x00001062                __vector_16
+                0x000010b0                __SPI_STC_vect_routine1
+                0x000010b2                SPI_STC_vect_routine
+                0x000010b2                __SPI_STC_vect_routine
+                0x000010b4                __vector_17
+                0x00001102                __USART0_RX_vect_routine1
+                0x00001104                __USART0_RX_vect_routine
+                0x00001104                USART0_RX_vect_routine
+                0x00001106                __vector_18
+                0x00001154                __USART0_UDRE_vect_routine1
+                0x00001154                USART0_UDRE_vect_routine1
+                0x00001156                USART0_UDRE_vect_routine
+                0x00001156                __USART0_UDRE_vect_routine
+                0x00001158                __vector_19
+                0x000011a6                __USART0_TX_vect_routine1
+                0x000011a8                USART0_TX_vect_routine
+                0x000011a8                __USART0_TX_vect_routine
+                0x000011aa                __vector_20
+                0x000011f8                __ADC_vect_routine1
+                0x000011fa                ADC_vect_routine
+                0x000011fa                __ADC_vect_routine
+                0x000011fc                __vector_21
+                0x0000124a                EE_READY_vect_routine1
+                0x0000124a                __EE_READY_vect_routine1
+                0x0000124c                EE_READY_vect_routine
+                0x0000124c                __EE_READY_vect_routine
+                0x0000124e                __vector_22
+                0x0000129c                __ANALOG_COMP_vect_routine1
+                0x0000129c                ANALOG_COMP_vect_routine1
+                0x0000129e                ANALOG_COMP_vect_routine
+                0x0000129e                __ANALOG_COMP_vect_routine
+                0x000012a0                __vector_23
+                0x000012ee                __TIMER1_COMPC_vect_routine1
+                0x000012f0                __TIMER1_COMPC_vect_routine
+                0x000012f0                TIMER1_COMPC_vect_routine
+                0x000012f4                __vector_24
+                0x00001342                TIMER3_CAPT_vect_routine1
+                0x00001342                __TIMER3_CAPT_vect_routine1
+                0x00001344                TIMER3_CAPT_vect_routine
+                0x00001344                __TIMER3_CAPT_vect_routine
+                0x00001346                __vector_25
+                0x00001394                __TIMER3_COMPA_vect_routine1
+                0x00001396                __TIMER3_COMPA_vect_routine
+                0x0000139a                __vector_26
+                0x000013e8                __TIMER3_COMPB_vect_routine1
+                0x000013ea                __TIMER3_COMPB_vect_routine
+                0x000013ea                TIMER3_COMPB_vect_routine
+                0x000013ee                __vector_27
+                0x0000143c                __TIMER3_COMPC_vect_routine1
+                0x0000143e                __TIMER3_COMPC_vect_routine
+                0x0000143e                TIMER3_COMPC_vect_routine
+                0x00001442                __vector_28
+                0x00001490                __TIMER3_OVF_vect_routine1
+                0x00001492                __TIMER3_OVF_vect_routine
+                0x00001492                TIMER3_OVF_vect_routine
+                0x00001496                __vector_29
+                0x000014e4                __USART1_RX_vect_routine1
+                0x000014e6                USART1_RX_vect_routine
+                0x000014e6                __USART1_RX_vect_routine
+                0x000014ea                __vector_30
+                0x00001538                USART1_UDRE_vect_routine1
+                0x00001538                __USART1_UDRE_vect_routine1
+                0x0000153a                __USART1_UDRE_vect_routine
+                0x0000153a                USART1_UDRE_vect_routine
+                0x0000153c                __vector_31
+                0x0000158a                __USART1_TX_vect_routine1
+                0x0000158c                __USART1_TX_vect_routine
+                0x0000158c                USART1_TX_vect_routine
+                0x00001590                __vector_32
+                0x000015de                __TWI_vect_routine1
+                0x000015e0                __TWI_vect_routine
+                0x000015e0                TWI_vect_routine
+                0x000015e4                __vector_33
+                0x00001632                __SPM_READY_vect_routine1
+                0x00001632                SPM_READY_vect_routine1
+                0x00001634                SPM_READY_vect_routine
+                0x00001634                __SPM_READY_vect_routine
+                0x00001636                __vector_34
+ .text          0x00001684       0x20 D:\c4m\robot\robot\libc4m.a(eeprom.o)
+                0x00001684                EEPROM_set
+                0x00001694                EEPROM_get
+ .text          0x000016a4       0xb0 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+                0x000016a4                HWInt_step
+                0x000016ec                HWInt_reg
+                0x0000172e                HWInt_en
+ .text          0x00001754       0x4e D:\c4m\robot\robot\libc4m.a(stdio.o)
+                0x00001778                C4M_STDIO_init
+ .text          0x000017a2      0x1d2 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+                0x000017a2                HAL_time_init
+                0x000017b4                HAL_get_time
+                0x000017e2                HAL_get_expired_time_us
+                0x0000184c                HAL_get_expired_time_ms
+                0x000018a0                HAL_timeout_test
+                0x000018f0                HAL_delay
+                0x0000194c                HAL_tick
+ .text          0x00001974       0x80 D:\c4m\robot\robot\libc4m.a(asabus.o)
+                0x00001974                ASABUS_ID_set
+                0x0000198a                ASABUS_ID_init
+                0x00001992                ASABUS_SPI_init
+                0x000019ae                ASABUS_SPI_swap
+                0x000019b8                ASABUS_UART_init
+                0x000019d8                ASABUS_UART_transmit
+                0x000019e6                ASABUS_UART_receive
+                0x000019f4                . = ALIGN (0x2)
+ *(.text.*)
+ .text.interpolation_method
+                0x000019f4       0xd8 main.o
+                0x000019f4                interpolation_method
+ .text.continue_acting
+                0x00001acc       0x84 main.o
+                0x00001acc                continue_acting
+ .text.main     0x00001b50       0x6c main.o
+                0x00001b50                main
+ .text.BasicTimer_Init
+                0x00001bbc       0x64 RC16M128_Lib.o
+                0x00001bbc                BasicTimer_Init
+ .text.RC16M128_Servo_Init
+                0x00001c20        0xc RC16M128_Lib.o
+                0x00001c20                RC16M128_Servo_Init
+ .text.RC16M128_Servo_put
+                0x00001c2c       0x54 RC16M128_Lib.o
+                0x00001c2c                RC16M128_Servo_put
+ .text.RC16M128_Servo_set
+                0x00001c80       0x48 RC16M128_Lib.o
+                0x00001c80                RC16M128_Servo_set
+ .text.ASA_RC16M128_set
+                0x00001cc8        0x8 RC16M128_Lib.o
+                0x00001cc8                ASA_RC16M128_set
+ .text.TIMER3_COMPA_vect_routine
+                0x00001cd0      0x162 RC16M128_Lib.o
+                0x00001cd0                TIMER3_COMPA_vect_routine
+ .text.libgcc.div
+                0x00001e32       0x26 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
+                0x00001e32                _div
+                0x00001e32                __divmodhi4
+ .text.libgcc.div
+                0x00001e58       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+                0x00001e58                __udivmodsi4
+ .text.libgcc.div
+                0x00001e9c       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+                0x00001e9c                __udivmodhi4
+ .text.avr-libc
+                0x00001ec4      0x3fa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                0x00001ec4                vfprintf
+ .text.avr-libc
+                0x000022be      0x592 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfscanf_std.o)
+                0x00002622                vfscanf
+ .text.avr-libc
+                0x00002850       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(isspace.o)
+                0x00002850                isspace
+ .text.avr-libc
+                0x00002860       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strchr_P.o)
+                0x00002860                strchr_P
+ .text.avr-libc
+                0x00002876       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                0x00002876                strnlen_P
+ .text.avr-libc
+                0x0000288c       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                0x0000288c                strnlen
+ .text.avr-libc
+                0x000028a2       0x7c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fgetc.o)
+                0x000028a2                fgetc
+ .text.avr-libc
+                0x0000291e       0x78 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fputc.o)
+                0x0000291e                fputc
+ .text.avr-libc
+                0x00002996       0x32 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ungetc.o)
+                0x00002996                ungetc
+ .text.avr-libc
+                0x000029c8       0xbc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                0x000029c8                __ultoa_invert
+ .text.avr-libc
+                0x00002a84        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+                0x00002a84                __ctype_isfalse
+                0x00002a88                __ctype_istrue
+ .text.avr-libc
+                0x00002a8a       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eerd_block.o)
+                0x00002a8a                eeprom_read_block
+                0x00002a8e                eeprom_read_blraw
+ .text.avr-libc
+                0x00002aaa       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eewr_block.o)
+                0x00002aaa                eeprom_write_block
+ .text.avr-libc
+                0x00002abc       0x1a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eewr_byte.o)
+                0x00002abc                eeprom_write_byte
+                0x00002abe                eeprom_write_r18
+                0x00002ad6                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00002ad6        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+                0x00002ad6                _exit
+                0x00002ad6                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00002ad6        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00002ada                _etext = .
+
+.data           0x00800100       0xde load address 0x00002ada
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100       0x20 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+                0x00800100                UART1_Inst
+                0x00800110                UART0_Inst
+ .data          0x00800120       0x20 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+                0x00800120                SPI_SlaveInst
+                0x0080012b                SPI_MasterInst
+ .data          0x00800140        0xe D:\c4m\robot\robot\libc4m.a(stdio.o)
+ *(.data*)
+ .data.movement
+                0x0080014e       0x50 main.o
+                0x0080014e                movement
+ .data.left_hand2
+                0x0080019e       0x10 main.o
+                0x0080019e                left_hand2
+ .data.left_hand1
+                0x008001ae       0x10 main.o
+                0x008001ae                left_hand1
+ .data.Initial  0x008001be       0x10 main.o
+                0x008001be                Initial
+ .data.ServoCommand
+                0x008001ce       0x10 RC16M128_Lib.o
+                0x008001ce                ServoCommand
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.r*)
+                0x008001de                . = ALIGN (0x2)
+                0x008001de                _edata = .
+                0x008001de                PROVIDE (__data_end, .)
+
+.bss            0x008001de       0x3d
+                0x008001de                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008001de        0x2 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ *(.bss*)
+ .bss.ServoPeriodCount
+                0x008001e0        0x2 RC16M128_Lib.o
+                0x008001e0                ServoPeriodCount
+ *(COMMON)
+ COMMON         0x008001e2        0x1 D:\c4m\robot\robot\libc4m.a(device.o)
+                0x008001e2                ASAConfigStr_inst
+ COMMON         0x008001e3       0x10 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+                0x008001e3                ExtIntStrList_p
+ COMMON         0x008001f3        0x8 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+                0x008001f3                PwmIntStrList_p
+ COMMON         0x008001fb        0x2 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+                0x008001fb                TwiIntStrList_p
+ COMMON         0x008001fd        0x8 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+                0x008001fd                UartRxIntStrList_p
+                0x00800201                UartTxIntStrList_p
+ COMMON         0x00800205        0x2 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+                0x00800205                SpiIntStrList_p
+ COMMON         0x00800207        0x8 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+                0x00800207                TimIntStrList_p
+ COMMON         0x0080020f        0x2 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+                0x0080020f                AdcIntStrList_p
+ COMMON         0x00800211        0x4 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+                0x00800211                HAL_time_global
+ COMMON         0x00800215        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(iob.o)
+                0x00800215                __iob
+                0x0080021b                PROVIDE (__bss_end, .)
+                0x00002ada                __data_load_start = LOADADDR (.data)
+                0x00002bb8                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080021b        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x0080021b                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x6d
+ *(.comment)
+ .comment       0x00000000       0x30 main.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 RC16M128_Lib.o
+ .comment       0x00000030       0x11 D:\c4m\robot\robot\libc4m.a(device.o)
+                                 0x12 (size before relaxing)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(std_isr.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(tim.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(isr.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(eeprom.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(stdio.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+ .comment       0x00000041       0x12 D:\c4m\robot\robot\libc4m.a(asabus.o)
+ .comment       0x00000041       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(iob.o)
+ .comment       0x00000041       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                                 0x2d (size before relaxing)
+ .comment       0x0000006d       0x2d c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfscanf_std.o)
+ .comment       0x0000006d       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fgetc.o)
+ .comment       0x0000006d       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .comment       0x0000006d       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ungetc.o)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x3c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x288
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 main.o
+ .debug_aranges
+                0x00000030       0x50 RC16M128_Lib.o
+ .debug_aranges
+                0x00000080       0x20 D:\c4m\robot\robot\libc4m.a(device.o)
+ .debug_aranges
+                0x000000a0       0x20 D:\c4m\robot\robot\libc4m.a(std_isr.o)
+ .debug_aranges
+                0x000000c0       0x20 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .debug_aranges
+                0x000000e0       0x20 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .debug_aranges
+                0x00000100       0x20 D:\c4m\robot\robot\libc4m.a(tim.o)
+ .debug_aranges
+                0x00000120       0x20 D:\c4m\robot\robot\libc4m.a(isr.o)
+ .debug_aranges
+                0x00000140       0x20 D:\c4m\robot\robot\libc4m.a(eeprom.o)
+ .debug_aranges
+                0x00000160       0x18 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+ .debug_aranges
+                0x00000178       0x18 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+ .debug_aranges
+                0x00000190       0x18 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+ .debug_aranges
+                0x000001a8       0x18 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+ .debug_aranges
+                0x000001c0       0x18 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+ .debug_aranges
+                0x000001d8       0x18 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+ .debug_aranges
+                0x000001f0       0x18 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+ .debug_aranges
+                0x00000208       0x20 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .debug_aranges
+                0x00000228       0x20 D:\c4m\robot\robot\libc4m.a(stdio.o)
+ .debug_aranges
+                0x00000248       0x20 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+ .debug_aranges
+                0x00000268       0x20 D:\c4m\robot\robot\libc4m.a(asabus.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x5273
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x780 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
+ .debug_info    0x00000780      0x58e main.o
+ .debug_info    0x00000d0e      0x4b2 RC16M128_Lib.o
+ .debug_info    0x000011c0      0x4d1 D:\c4m\robot\robot\libc4m.a(device.o)
+ .debug_info    0x00001691      0x876 D:\c4m\robot\robot\libc4m.a(std_isr.o)
+ .debug_info    0x00001f07      0x7a7 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .debug_info    0x000026ae      0x7fc D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .debug_info    0x00002eaa      0x287 D:\c4m\robot\robot\libc4m.a(tim.o)
+ .debug_info    0x00003131      0xaa6 D:\c4m\robot\robot\libc4m.a(isr.o)
+ .debug_info    0x00003bd7      0x16d D:\c4m\robot\robot\libc4m.a(eeprom.o)
+ .debug_info    0x00003d44      0x14a D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+ .debug_info    0x00003e8e      0x14a D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+ .debug_info    0x00003fd8      0x14a D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+ .debug_info    0x00004122      0x166 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+ .debug_info    0x00004288      0x14a D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+ .debug_info    0x000043d2      0x14a D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+ .debug_info    0x0000451c      0x14a D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+ .debug_info    0x00004666      0x353 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .debug_info    0x000049b9      0x246 D:\c4m\robot\robot\libc4m.a(stdio.o)
+ .debug_info    0x00004bff      0x234 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+ .debug_info    0x00004e33      0x440 D:\c4m\robot\robot\libc4m.a(asabus.o)
+
+.debug_abbrev   0x00000000     0x206b
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x718 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
+ .debug_abbrev  0x00000718      0x1d9 main.o
+ .debug_abbrev  0x000008f1      0x1bb RC16M128_Lib.o
+ .debug_abbrev  0x00000aac      0x174 D:\c4m\robot\robot\libc4m.a(device.o)
+ .debug_abbrev  0x00000c20      0x19e D:\c4m\robot\robot\libc4m.a(std_isr.o)
+ .debug_abbrev  0x00000dbe      0x2e0 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .debug_abbrev  0x0000109e      0x22e D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .debug_abbrev  0x000012cc      0x13a D:\c4m\robot\robot\libc4m.a(tim.o)
+ .debug_abbrev  0x00001406       0xea D:\c4m\robot\robot\libc4m.a(isr.o)
+ .debug_abbrev  0x000014f0       0x9e D:\c4m\robot\robot\libc4m.a(eeprom.o)
+ .debug_abbrev  0x0000158e       0xb0 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+ .debug_abbrev  0x0000163e       0xb0 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+ .debug_abbrev  0x000016ee       0xb0 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+ .debug_abbrev  0x0000179e       0xb0 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+ .debug_abbrev  0x0000184e       0xb0 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+ .debug_abbrev  0x000018fe       0xb0 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+ .debug_abbrev  0x000019ae       0xb0 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+ .debug_abbrev  0x00001a5e      0x1a3 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .debug_abbrev  0x00001c01      0x1a7 D:\c4m\robot\robot\libc4m.a(stdio.o)
+ .debug_abbrev  0x00001da8      0x160 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+ .debug_abbrev  0x00001f08      0x163 D:\c4m\robot\robot\libc4m.a(asabus.o)
+
+.debug_line     0x00000000     0x3c0c
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
+ .debug_line    0x0000001a      0x229 main.o
+ .debug_line    0x00000243      0x3ac RC16M128_Lib.o
+ .debug_line    0x000005ef      0x142 D:\c4m\robot\robot\libc4m.a(device.o)
+ .debug_line    0x00000731      0x721 D:\c4m\robot\robot\libc4m.a(std_isr.o)
+ .debug_line    0x00000e52      0x9be D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .debug_line    0x00001810      0x83d D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .debug_line    0x0000204d      0x511 D:\c4m\robot\robot\libc4m.a(tim.o)
+ .debug_line    0x0000255e      0x5eb D:\c4m\robot\robot\libc4m.a(isr.o)
+ .debug_line    0x00002b49      0x103 D:\c4m\robot\robot\libc4m.a(eeprom.o)
+ .debug_line    0x00002c4c       0xe5 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+ .debug_line    0x00002d31       0xe5 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+ .debug_line    0x00002e16       0xe5 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+ .debug_line    0x00002efb       0xe7 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+ .debug_line    0x00002fe2       0xe5 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+ .debug_line    0x000030c7       0xe5 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+ .debug_line    0x000031ac       0xe5 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+ .debug_line    0x00003291      0x2ca D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .debug_line    0x0000355b      0x1b8 D:\c4m\robot\robot\libc4m.a(stdio.o)
+ .debug_line    0x00003713      0x25b D:\c4m\robot\robot\libc4m.a(hal_time.o)
+ .debug_line    0x0000396e      0x29e D:\c4m\robot\robot\libc4m.a(asabus.o)
+
+.debug_frame    0x00000000     0x191c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xbc main.o
+ .debug_frame   0x000000bc       0xbc RC16M128_Lib.o
+ .debug_frame   0x00000178       0x24 D:\c4m\robot\robot\libc4m.a(device.o)
+ .debug_frame   0x0000019c      0x1d4 D:\c4m\robot\robot\libc4m.a(std_isr.o)
+ .debug_frame   0x00000370      0x16c D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .debug_frame   0x000004dc      0x170 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .debug_frame   0x0000064c       0x54 D:\c4m\robot\robot\libc4m.a(tim.o)
+ .debug_frame   0x000006a0     0x1014 D:\c4m\robot\robot\libc4m.a(isr.o)
+ .debug_frame   0x000016b4       0x34 D:\c4m\robot\robot\libc4m.a(eeprom.o)
+ .debug_frame   0x000016e8       0x64 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .debug_frame   0x0000174c       0x4c D:\c4m\robot\robot\libc4m.a(stdio.o)
+ .debug_frame   0x00001798      0x100 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+ .debug_frame   0x00001898       0x84 D:\c4m\robot\robot\libc4m.a(asabus.o)
+
+.debug_str      0x00000000     0x1747
+ *(.debug_str)
+ .debug_str     0x00000000      0x27d c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
+ .debug_str     0x0000027d      0x298 main.o
+                                0x2ec (size before relaxing)
+ .debug_str     0x00000515      0x117 RC16M128_Lib.o
+                                0x33b (size before relaxing)
+ .debug_str     0x0000062c      0x1f3 D:\c4m\robot\robot\libc4m.a(device.o)
+                                0x2dc (size before relaxing)
+ .debug_str     0x0000081f      0x12c D:\c4m\robot\robot\libc4m.a(std_isr.o)
+                                0x5b9 (size before relaxing)
+ .debug_str     0x0000094b      0x168 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+                                0x338 (size before relaxing)
+ .debug_str     0x00000ab3      0x139 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+                                0x3eb (size before relaxing)
+ .debug_str     0x00000bec       0x26 D:\c4m\robot\robot\libc4m.a(tim.o)
+                                0x17e (size before relaxing)
+ .debug_str     0x00000c12      0x84e D:\c4m\robot\robot\libc4m.a(isr.o)
+                                0x972 (size before relaxing)
+ .debug_str     0x00001460       0x45 D:\c4m\robot\robot\libc4m.a(eeprom.o)
+                                0x18e (size before relaxing)
+ .debug_str     0x000014a5       0x3a D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+                                0x192 (size before relaxing)
+ .debug_str     0x000014df        0xe D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+                                0x192 (size before relaxing)
+ .debug_str     0x000014ed        0xe D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+                                0x192 (size before relaxing)
+ .debug_str     0x000014fb        0xf D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+                                0x1a9 (size before relaxing)
+ .debug_str     0x0000150a        0xe D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+                                0x192 (size before relaxing)
+ .debug_str     0x00001518        0xe D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+                                0x192 (size before relaxing)
+ .debug_str     0x00001526        0xe D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+                                0x192 (size before relaxing)
+ .debug_str     0x00001534       0x52 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+                                0x1fa (size before relaxing)
+ .debug_str     0x00001586       0x76 D:\c4m\robot\robot\libc4m.a(stdio.o)
+                                0x1b0 (size before relaxing)
+ .debug_str     0x000015fc       0xb7 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+                                0x208 (size before relaxing)
+ .debug_str     0x000016b3       0x94 D:\c4m\robot\robot\libc4m.a(asabus.o)
+                                0x2dc (size before relaxing)
+
+.debug_loc      0x00000000     0x3837
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x313 main.o
+ .debug_loc     0x00000313      0x410 RC16M128_Lib.o
+ .debug_loc     0x00000723      0x89c D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .debug_loc     0x00000fbf      0x4ad D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .debug_loc     0x0000146c      0x247 D:\c4m\robot\robot\libc4m.a(tim.o)
+ .debug_loc     0x000016b3     0x1af6 D:\c4m\robot\robot\libc4m.a(isr.o)
+ .debug_loc     0x000031a9      0x130 D:\c4m\robot\robot\libc4m.a(eeprom.o)
+ .debug_loc     0x000032d9      0x1be D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .debug_loc     0x00003497       0xc0 D:\c4m\robot\robot\libc4m.a(stdio.o)
+ .debug_loc     0x00003557      0x283 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+ .debug_loc     0x000037da       0x5d D:\c4m\robot\robot\libc4m.a(asabus.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x1a8
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x20 main.o
+ .debug_ranges  0x00000020       0x40 RC16M128_Lib.o
+ .debug_ranges  0x00000060       0xd0 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .debug_ranges  0x00000130       0x48 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .debug_ranges  0x00000178       0x18 D:\c4m\robot\robot\libc4m.a(tim.o)
+ .debug_ranges  0x00000190       0x18 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(robot.elf elf32-avr)
+LOAD linker stubs
