@@ -42,6 +42,8 @@ c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/..
                               D:\c4m\robot\robot\libc4m.a(hal_time.o) (__udivmodsi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o (exit)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+                              main.o (__tablejump2__)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
                               main.o (__do_copy_data)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
@@ -88,6 +90,7 @@ TwiIntStrList_p     0x2               D:\c4m\robot\robot\libc4m.a(twi_imp.o)
 SpiIntStrList_p     0x2               D:\c4m\robot\robot\libc4m.a(spi_imp.o)
 k                   0x2               main.o
 ExtIntStrList_p     0x10              D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+finalfnc            0x10              main.o
 UartRxIntStrList_p  0x4               D:\c4m\robot\robot\libc4m.a(uart_imp.o)
 TimIntStrList_p     0x8               D:\c4m\robot\robot\libc4m.a(tim_imp.o)
 AdcIntStrList_p     0x2               D:\c4m\robot\robot\libc4m.a(adc_imp.o)
@@ -106,19 +109,115 @@ Discarded input sections
  .bss           0x00000000        0x0 main.o
  .text.interpolation_method
                 0x00000000      0x10e main.o
- .text.arm      0x00000000       0x1a main.o
- .text.waist    0x00000000        0x2 main.o
- .text.head     0x00000000        0x2 main.o
- .text.leg      0x00000000        0x2 main.o
- .bss.legmove   0x00000000       0x10 main.o
- .bss.headmove  0x00000000       0x10 main.o
- .bss.waistmove
+ .text.waist    0x00000000        0xe main.o
+ .text.head     0x00000000        0xe main.o
+ .text.final_build
+                0x00000000       0x6c main.o
+ .progmem.gcc_sw_table.final_build
+                0x00000000       0x20 main.o
+ .bss.bye_2_left
                 0x00000000       0x10 main.o
- .bss.armmove   0x00000000       0x10 main.o
- COMMON         0x00000000       0xb7 main.o
+ .bss.bye_1_left
+                0x00000000       0x10 main.o
+ .bss.Initial_low
+                0x00000000       0x10 main.o
+ .bss.twohandup2
+                0x00000000       0x10 main.o
+ .bss.twohandup1
+                0x00000000       0x10 main.o
+ .bss.pose2     0x00000000       0x10 main.o
+ .bss.pose1     0x00000000       0x10 main.o
+ .bss.twohand90_2
+                0x00000000       0x10 main.o
+ .bss.twohand90_1
+                0x00000000       0x10 main.o
+ .bss.bigwaist_left
+                0x00000000       0x10 main.o
+ .bss.bigwaist_right
+                0x00000000       0x10 main.o
+ .bss.handshake2
+                0x00000000       0x10 main.o
+ .bss.handshake1
+                0x00000000       0x10 main.o
+ .bss.handshake_shoulder_up
+                0x00000000       0x10 main.o
+ .bss.rightup_left2
+                0x00000000       0x10 main.o
+ .bss.rightup_left
+                0x00000000       0x10 main.o
+ .bss.leftup_right2
+                0x00000000       0x10 main.o
+ .bss.leftup_right
+                0x00000000       0x10 main.o
+ .bss.waist_left
+                0x00000000       0x10 main.o
+ .bss.waist_right
+                0x00000000       0x10 main.o
+ .bss.head_left
+                0x00000000       0x10 main.o
+ .bss.head_right
+                0x00000000       0x10 main.o
+ .bss.Kneel     0x00000000       0x10 main.o
+ .bss.two_hand_v
+                0x00000000       0x10 main.o
+ .bss.stand     0x00000000       0x10 main.o
+ .data.offset_bye_2_left
+                0x00000000       0x10 main.o
+ .data.offset_bye_1_left
+                0x00000000       0x10 main.o
+ .data.offset_waist_left
+                0x00000000       0x10 main.o
+ .data.offset_waist_right
+                0x00000000       0x10 main.o
+ .data.offset_head_left
+                0x00000000       0x10 main.o
+ .data.offset_head_right
+                0x00000000       0x10 main.o
+ .data.offset_Kneel
+                0x00000000       0x10 main.o
+ .data.offset_two_hand_v
+                0x00000000       0x10 main.o
+ .data.offset_stand
+                0x00000000       0x10 main.o
+ .data.offset_bigwaist_left
+                0x00000000       0x10 main.o
+ .data.offset_bigwaist_right
+                0x00000000       0x10 main.o
+ .data.offset_handshake2
+                0x00000000       0x10 main.o
+ .data.offset_handshake1
+                0x00000000       0x10 main.o
+ .data.offset_handshake_shoulder_up
+                0x00000000       0x10 main.o
+ .data.offset_rightup_left2
+                0x00000000       0x10 main.o
+ .data.offset_rightup_left
+                0x00000000       0x10 main.o
+ .data.offset_leftup_right2
+                0x00000000       0x10 main.o
+ .data.offset_leftup_right
+                0x00000000       0x10 main.o
+ .data.offset_twohendup2
+                0x00000000       0x10 main.o
+ .data.offset_twohendup1
+                0x00000000       0x10 main.o
+ .data.offset_pose2
+                0x00000000       0x10 main.o
+ .data.offset_pose1
+                0x00000000       0x10 main.o
+ .data.offset_twohand90_2
+                0x00000000       0x10 main.o
+ .data.offset_twohand90_1
+                0x00000000       0x10 main.o
+ .data.offset_Initial_low
+                0x00000000       0x10 main.o
+ .data.down     0x00000000       0x10 main.o
+ COMMON         0x00000000       0xc7 main.o
  .text          0x00000000        0x0 RC16M128_Lib.o
  .data          0x00000000        0x0 RC16M128_Lib.o
  .bss           0x00000000        0x0 RC16M128_Lib.o
+ .text.RC16M128_Servo_put
+                0x00000000       0x54 RC16M128_Lib.o
  .text.RC16M128_Servo_get
                 0x00000000       0xe2 RC16M128_Lib.o
  .bss.ServoEnableSetRegisterH
@@ -214,6 +313,22 @@ Discarded input sections
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
  .text.libgcc.fixed
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc   0x00000000       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
@@ -436,7 +551,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x2c5a
+.text           0x00000000     0x2902
  *(.vectors)
  .vectors       0x00000000       0x8c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
                 0x00000000                __vector_default
@@ -708,79 +823,80 @@ END GROUP
                 0x000019e6                ASABUS_UART_receive
                 0x000019f4                . = ALIGN (0x2)
  *(.text.*)
- .text.main     0x000019f4      0x396 main.o
-                0x000019f4                main
+ .text.arm      0x000019f4       0x1e main.o
+                0x000019f4                arm
+ .text.leg      0x00001a12       0x1a main.o
+                0x00001a12                leg
+ .text.main     0x00001a2c       0x5c main.o
+                0x00001a2c                main
  .text.BasicTimer_Init
-                0x00001d8a       0x64 RC16M128_Lib.o
-                0x00001d8a                BasicTimer_Init
+                0x00001a88       0x62 RC16M128_Lib.o
+                0x00001a88                BasicTimer_Init
  .text.RC16M128_Servo_Init
-                0x00001dee        0xc RC16M128_Lib.o
-                0x00001dee                RC16M128_Servo_Init
- .text.RC16M128_Servo_put
-                0x00001dfa       0x54 RC16M128_Lib.o
-                0x00001dfa                RC16M128_Servo_put
+                0x00001aea        0xc RC16M128_Lib.o
+                0x00001aea                RC16M128_Servo_Init
  .text.RC16M128_Servo_set
-                0x00001e4e       0x48 RC16M128_Lib.o
-                0x00001e4e                RC16M128_Servo_set
+                0x00001af6       0x48 RC16M128_Lib.o
+                0x00001af6                RC16M128_Servo_set
  .text.ASA_RC16M128_set
-                0x00001e96        0x8 RC16M128_Lib.o
-                0x00001e96                ASA_RC16M128_set
+                0x00001b3e        0x8 RC16M128_Lib.o
+                0x00001b3e                ASA_RC16M128_set
  .text.TIMER3_COMPA_vect_routine
-                0x00001e9e      0x162 RC16M128_Lib.o
-                0x00001e9e                TIMER3_COMPA_vect_routine
+                0x00001b46      0x162 RC16M128_Lib.o
+                0x00001b46                TIMER3_COMPA_vect_routine
  .text.libgcc.div
-                0x00002000       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
-                0x00002000                __udivmodsi4
+                0x00001ca8       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+                0x00001ca8                __udivmodsi4
  .text.avr-libc
-                0x00002044      0x3fa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
-                0x00002044                vfprintf
+                0x00001cec      0x3fa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                0x00001cec                vfprintf
  .text.avr-libc
-                0x0000243e      0x592 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfscanf_std.o)
-                0x000027a2                vfscanf
+                0x000020e6      0x592 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(vfscanf_std.o)
+                0x0000244a                vfscanf
  .text.avr-libc
-                0x000029d0       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(isspace.o)
-                0x000029d0                isspace
+                0x00002678       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(isspace.o)
+                0x00002678                isspace
  .text.avr-libc
-                0x000029e0       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strchr_P.o)
-                0x000029e0                strchr_P
+                0x00002688       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strchr_P.o)
+                0x00002688                strchr_P
  .text.avr-libc
-                0x000029f6       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
-                0x000029f6                strnlen_P
+                0x0000269e       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                0x0000269e                strnlen_P
  .text.avr-libc
-                0x00002a0c       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen.o)
-                0x00002a0c                strnlen
+                0x000026b4       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                0x000026b4                strnlen
  .text.avr-libc
-                0x00002a22       0x7c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fgetc.o)
-                0x00002a22                fgetc
+                0x000026ca       0x7c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fgetc.o)
+                0x000026ca                fgetc
  .text.avr-libc
-                0x00002a9e       0x78 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fputc.o)
-                0x00002a9e                fputc
+                0x00002746       0x78 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fputc.o)
+                0x00002746                fputc
  .text.avr-libc
-                0x00002b16       0x32 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ungetc.o)
-                0x00002b16                ungetc
+                0x000027be       0x32 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ungetc.o)
+                0x000027be                ungetc
  .text.avr-libc
-                0x00002b48       0xbc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
-                0x00002b48                __ultoa_invert
+                0x000027f0       0xbc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                0x000027f0                __ultoa_invert
  .text.avr-libc
-                0x00002c04        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
-                0x00002c04                __ctype_isfalse
-                0x00002c08                __ctype_istrue
+                0x000028ac        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+                0x000028ac                __ctype_isfalse
+                0x000028b0                __ctype_istrue
  .text.avr-libc
-                0x00002c0a       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eerd_block.o)
-                0x00002c0a                eeprom_read_block
-                0x00002c0e                eeprom_read_blraw
+                0x000028b2       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eerd_block.o)
+                0x000028b2                eeprom_read_block
+                0x000028b6                eeprom_read_blraw
  .text.avr-libc
-                0x00002c2a       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eewr_block.o)
-                0x00002c2a                eeprom_write_block
+                0x000028d2       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eewr_block.o)
+                0x000028d2                eeprom_write_block
  .text.avr-libc
-                0x00002c3c       0x1a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eewr_byte.o)
-                0x00002c3c                eeprom_write_byte
-                0x00002c3e                eeprom_write_r18
-                0x00002c56                . = ALIGN (0x2)
+                0x000028e4       0x1a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libatmega128.a(eewr_byte.o)
+                0x000028e4                eeprom_write_byte
+                0x000028e6                eeprom_write_r18
+                0x000028fe                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00002c56        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
-                0x00002c56                _exit
-                0x00002c56                exit
+ .fini9         0x000028fe        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+                0x000028fe                _exit
+                0x000028fe                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -799,11 +915,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00002c56        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .fini0         0x000028fe        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
  *(.fini0)
-                0x00002c5a                _etext = .
+                0x00002902                _etext = .
 
-.data           0x00800100      0x20e load address 0x00002c5a
+.data           0x00800100       0x6e load address 0x00002902
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100       0x20 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
@@ -814,212 +930,73 @@ END GROUP
                 0x0080012b                SPI_MasterInst
  .data          0x00800140        0xe D:\c4m\robot\robot\libc4m.a(stdio.o)
  *(.data*)
- .data.offset_bye_2_left
-                0x0080014e       0x10 main.o
-                0x0080014e                offset_bye_2_left
- .data.offset_bye_1_left
-                0x0080015e       0x10 main.o
-                0x0080015e                offset_bye_1_left
- .data.offset_waist_left
-                0x0080016e       0x10 main.o
-                0x0080016e                offset_waist_left
- .data.offset_waist_right
-                0x0080017e       0x10 main.o
-                0x0080017e                offset_waist_right
- .data.offset_head_left
-                0x0080018e       0x10 main.o
-                0x0080018e                offset_head_left
- .data.offset_head_right
-                0x0080019e       0x10 main.o
-                0x0080019e                offset_head_right
- .data.offset_Kneel
-                0x008001ae       0x10 main.o
-                0x008001ae                offset_Kneel
- .data.offset_two_hand_v
-                0x008001be       0x10 main.o
-                0x008001be                offset_two_hand_v
- .data.offset_stand
-                0x008001ce       0x10 main.o
-                0x008001ce                offset_stand
- .data.offset_bigwaist_left
-                0x008001de       0x10 main.o
-                0x008001de                offset_bigwaist_left
- .data.offset_bigwaist_right
-                0x008001ee       0x10 main.o
-                0x008001ee                offset_bigwaist_right
- .data.offset_handshake2
-                0x008001fe       0x10 main.o
-                0x008001fe                offset_handshake2
- .data.offset_handshake1
-                0x0080020e       0x10 main.o
-                0x0080020e                offset_handshake1
- .data.offset_handshake_shoulder_up
-                0x0080021e       0x10 main.o
-                0x0080021e                offset_handshake_shoulder_up
- .data.offset_rightup_left2
-                0x0080022e       0x10 main.o
-                0x0080022e                offset_rightup_left2
- .data.offset_rightup_left
-                0x0080023e       0x10 main.o
-                0x0080023e                offset_rightup_left
- .data.offset_leftup_right2
-                0x0080024e       0x10 main.o
-                0x0080024e                offset_leftup_right2
- .data.offset_leftup_right
-                0x0080025e       0x10 main.o
-                0x0080025e                offset_leftup_right
- .data.offset_twohendup2
-                0x0080026e       0x10 main.o
-                0x0080026e                offset_twohendup2
- .data.offset_twohendup1
-                0x0080027e       0x10 main.o
-                0x0080027e                offset_twohendup1
- .data.offset_pose2
-                0x0080028e       0x10 main.o
-                0x0080028e                offset_pose2
- .data.offset_pose1
-                0x0080029e       0x10 main.o
-                0x0080029e                offset_pose1
- .data.offset_twohand90_2
-                0x008002ae       0x10 main.o
-                0x008002ae                offset_twohand90_2
- .data.offset_twohand90_1
-                0x008002be       0x10 main.o
-                0x008002be                offset_twohand90_1
- .data.offset_Initial_low
-                0x008002ce       0x10 main.o
-                0x008002ce                offset_Initial_low
- .data.down     0x008002de       0x10 main.o
-                0x008002de                down
  .data.original
-                0x008002ee       0x10 main.o
-                0x008002ee                original
+                0x0080014e       0x10 main.o
+                0x0080014e                original
  .data.ServoCommand
-                0x008002fe       0x10 RC16M128_Lib.o
-                0x008002fe                ServoCommand
+                0x0080015e       0x10 RC16M128_Lib.o
+                0x0080015e                ServoCommand
  *(.gnu.linkonce.d*)
  *(.rodata)
  *(.rodata*)
  *(.gnu.linkonce.r*)
-                0x0080030e                . = ALIGN (0x2)
-                0x0080030e                _edata = .
-                0x0080030e                PROVIDE (__data_end, .)
+                0x0080016e                . = ALIGN (0x2)
+                0x0080016e                _edata = .
+                0x0080016e                PROVIDE (__data_end, .)
 
-.bss            0x0080030e      0x1ed
-                0x0080030e                PROVIDE (__bss_start, .)
+.bss            0x0080016e       0x9d
+                0x0080016e                PROVIDE (__bss_start, .)
  *(.bss)
- .bss           0x0080030e        0x2 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .bss           0x0080016e        0x2 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
  *(.bss*)
- .bss.bye_2_left
-                0x00800310       0x10 main.o
-                0x00800310                bye_2_left
- .bss.bye_1_left
-                0x00800320       0x10 main.o
-                0x00800320                bye_1_left
- .bss.Initial_low
-                0x00800330       0x10 main.o
-                0x00800330                Initial_low
- .bss.twohandup2
-                0x00800340       0x10 main.o
-                0x00800340                twohandup2
- .bss.twohandup1
-                0x00800350       0x10 main.o
-                0x00800350                twohandup1
- .bss.pose2     0x00800360       0x10 main.o
-                0x00800360                pose2
- .bss.pose1     0x00800370       0x10 main.o
-                0x00800370                pose1
- .bss.twohand90_2
-                0x00800380       0x10 main.o
-                0x00800380                twohand90_2
- .bss.twohand90_1
-                0x00800390       0x10 main.o
-                0x00800390                twohand90_1
- .bss.bigwaist_left
-                0x008003a0       0x10 main.o
-                0x008003a0                bigwaist_left
- .bss.bigwaist_right
-                0x008003b0       0x10 main.o
-                0x008003b0                bigwaist_right
- .bss.handshake2
-                0x008003c0       0x10 main.o
-                0x008003c0                handshake2
- .bss.handshake1
-                0x008003d0       0x10 main.o
-                0x008003d0                handshake1
- .bss.handshake_shoulder_up
-                0x008003e0       0x10 main.o
-                0x008003e0                handshake_shoulder_up
- .bss.rightup_left2
-                0x008003f0       0x10 main.o
-                0x008003f0                rightup_left2
- .bss.rightup_left
-                0x00800400       0x10 main.o
-                0x00800400                rightup_left
- .bss.leftup_right2
-                0x00800410       0x10 main.o
-                0x00800410                leftup_right2
- .bss.leftup_right
-                0x00800420       0x10 main.o
-                0x00800420                leftup_right
- .bss.waist_left
-                0x00800430       0x10 main.o
-                0x00800430                waist_left
- .bss.waist_right
-                0x00800440       0x10 main.o
-                0x00800440                waist_right
- .bss.head_left
-                0x00800450       0x10 main.o
-                0x00800450                head_left
- .bss.head_right
-                0x00800460       0x10 main.o
-                0x00800460                head_right
- .bss.Kneel     0x00800470       0x10 main.o
-                0x00800470                Kneel
- .bss.two_hand_v
-                0x00800480       0x10 main.o
-                0x00800480                two_hand_v
- .bss.stand     0x00800490       0x10 main.o
-                0x00800490                stand
  .bss.offset_initial
-                0x008004a0       0x10 main.o
-                0x008004a0                offset_initial
- .bss.Initial   0x008004b0       0x10 main.o
-                0x008004b0                Initial
+                0x00800170       0x10 main.o
+                0x00800170                offset_initial
+ .bss.Initial   0x00800180       0x10 main.o
+                0x00800180                Initial
+ .bss.legmove   0x00800190       0x10 main.o
+                0x00800190                legmove
+ .bss.headmove  0x008001a0       0x10 main.o
+                0x008001a0                headmove
+ .bss.waistmove
+                0x008001b0       0x10 main.o
+                0x008001b0                waistmove
+ .bss.armmove   0x008001c0       0x10 main.o
+                0x008001c0                armmove
  .bss.ServoPeriodCount
-                0x008004c0        0x2 RC16M128_Lib.o
-                0x008004c0                ServoPeriodCount
+                0x008001d0        0x2 RC16M128_Lib.o
+                0x008001d0                ServoPeriodCount
  *(COMMON)
- COMMON         0x008004c2        0x1 D:\c4m\robot\robot\libc4m.a(device.o)
-                0x008004c2                ASAConfigStr_inst
- COMMON         0x008004c3       0x10 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
-                0x008004c3                ExtIntStrList_p
- COMMON         0x008004d3        0x8 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
-                0x008004d3                PwmIntStrList_p
- COMMON         0x008004db        0x2 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
-                0x008004db                TwiIntStrList_p
- COMMON         0x008004dd        0x8 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
-                0x008004dd                UartRxIntStrList_p
-                0x008004e1                UartTxIntStrList_p
- COMMON         0x008004e5        0x2 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
-                0x008004e5                SpiIntStrList_p
- COMMON         0x008004e7        0x8 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
-                0x008004e7                TimIntStrList_p
- COMMON         0x008004ef        0x2 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
-                0x008004ef                AdcIntStrList_p
- COMMON         0x008004f1        0x4 D:\c4m\robot\robot\libc4m.a(hal_time.o)
-                0x008004f1                HAL_time_global
- COMMON         0x008004f5        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(iob.o)
-                0x008004f5                __iob
-                0x008004fb                PROVIDE (__bss_end, .)
-                0x00002c5a                __data_load_start = LOADADDR (.data)
-                0x00002e68                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x008001d2        0x1 D:\c4m\robot\robot\libc4m.a(device.o)
+                0x008001d2                ASAConfigStr_inst
+ COMMON         0x008001d3       0x10 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+                0x008001d3                ExtIntStrList_p
+ COMMON         0x008001e3        0x8 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+                0x008001e3                PwmIntStrList_p
+ COMMON         0x008001eb        0x2 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+                0x008001eb                TwiIntStrList_p
+ COMMON         0x008001ed        0x8 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+                0x008001ed                UartRxIntStrList_p
+                0x008001f1                UartTxIntStrList_p
+ COMMON         0x008001f5        0x2 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+                0x008001f5                SpiIntStrList_p
+ COMMON         0x008001f7        0x8 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+                0x008001f7                TimIntStrList_p
+ COMMON         0x008001ff        0x2 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+                0x008001ff                AdcIntStrList_p
+ COMMON         0x00800201        0x4 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+                0x00800201                HAL_time_global
+ COMMON         0x00800205        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(iob.o)
+                0x00800205                __iob
+                0x0080020b                PROVIDE (__bss_end, .)
+                0x00002902                __data_load_start = LOADADDR (.data)
+                0x00002970                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008004fb        0x0
+.noinit         0x0080020b        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x008004fb                _end = .
+                0x0080020b                _end = .
                 [!provide]                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
@@ -1111,197 +1088,197 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x2a0
+.debug_aranges  0x00000000      0x2a8
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x48 main.o
+                0x00000000       0x50 main.o
  .debug_aranges
-                0x00000048       0x50 RC16M128_Lib.o
+                0x00000050       0x50 RC16M128_Lib.o
  .debug_aranges
-                0x00000098       0x20 D:\c4m\robot\robot\libc4m.a(device.o)
+                0x000000a0       0x20 D:\c4m\robot\robot\libc4m.a(device.o)
  .debug_aranges
-                0x000000b8       0x20 D:\c4m\robot\robot\libc4m.a(std_isr.o)
+                0x000000c0       0x20 D:\c4m\robot\robot\libc4m.a(std_isr.o)
  .debug_aranges
-                0x000000d8       0x20 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+                0x000000e0       0x20 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
  .debug_aranges
-                0x000000f8       0x20 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+                0x00000100       0x20 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
  .debug_aranges
-                0x00000118       0x20 D:\c4m\robot\robot\libc4m.a(tim.o)
+                0x00000120       0x20 D:\c4m\robot\robot\libc4m.a(tim.o)
  .debug_aranges
-                0x00000138       0x20 D:\c4m\robot\robot\libc4m.a(isr.o)
+                0x00000140       0x20 D:\c4m\robot\robot\libc4m.a(isr.o)
  .debug_aranges
-                0x00000158       0x20 D:\c4m\robot\robot\libc4m.a(eeprom.o)
+                0x00000160       0x20 D:\c4m\robot\robot\libc4m.a(eeprom.o)
  .debug_aranges
-                0x00000178       0x18 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+                0x00000180       0x18 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
  .debug_aranges
-                0x00000190       0x18 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+                0x00000198       0x18 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
  .debug_aranges
-                0x000001a8       0x18 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+                0x000001b0       0x18 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
  .debug_aranges
-                0x000001c0       0x18 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+                0x000001c8       0x18 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
  .debug_aranges
-                0x000001d8       0x18 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+                0x000001e0       0x18 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
  .debug_aranges
-                0x000001f0       0x18 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+                0x000001f8       0x18 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
  .debug_aranges
-                0x00000208       0x18 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+                0x00000210       0x18 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
  .debug_aranges
-                0x00000220       0x20 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+                0x00000228       0x20 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
  .debug_aranges
-                0x00000240       0x20 D:\c4m\robot\robot\libc4m.a(stdio.o)
+                0x00000248       0x20 D:\c4m\robot\robot\libc4m.a(stdio.o)
  .debug_aranges
-                0x00000260       0x20 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+                0x00000268       0x20 D:\c4m\robot\robot\libc4m.a(hal_time.o)
  .debug_aranges
-                0x00000280       0x20 D:\c4m\robot\robot\libc4m.a(asabus.o)
+                0x00000288       0x20 D:\c4m\robot\robot\libc4m.a(asabus.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x5601
+.debug_info     0x00000000     0x573e
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x780 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
- .debug_info    0x00000780      0x91c main.o
- .debug_info    0x0000109c      0x4b2 RC16M128_Lib.o
- .debug_info    0x0000154e      0x4d1 D:\c4m\robot\robot\libc4m.a(device.o)
- .debug_info    0x00001a1f      0x876 D:\c4m\robot\robot\libc4m.a(std_isr.o)
- .debug_info    0x00002295      0x7a7 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
- .debug_info    0x00002a3c      0x7fc D:\c4m\robot\robot\libc4m.a(hal_spi.o)
- .debug_info    0x00003238      0x287 D:\c4m\robot\robot\libc4m.a(tim.o)
- .debug_info    0x000034bf      0xaa6 D:\c4m\robot\robot\libc4m.a(isr.o)
- .debug_info    0x00003f65      0x16d D:\c4m\robot\robot\libc4m.a(eeprom.o)
- .debug_info    0x000040d2      0x14a D:\c4m\robot\robot\libc4m.a(ext_imp.o)
- .debug_info    0x0000421c      0x14a D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
- .debug_info    0x00004366      0x14a D:\c4m\robot\robot\libc4m.a(twi_imp.o)
- .debug_info    0x000044b0      0x166 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
- .debug_info    0x00004616      0x14a D:\c4m\robot\robot\libc4m.a(spi_imp.o)
- .debug_info    0x00004760      0x14a D:\c4m\robot\robot\libc4m.a(tim_imp.o)
- .debug_info    0x000048aa      0x14a D:\c4m\robot\robot\libc4m.a(adc_imp.o)
- .debug_info    0x000049f4      0x353 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
- .debug_info    0x00004d47      0x246 D:\c4m\robot\robot\libc4m.a(stdio.o)
- .debug_info    0x00004f8d      0x234 D:\c4m\robot\robot\libc4m.a(hal_time.o)
- .debug_info    0x000051c1      0x440 D:\c4m\robot\robot\libc4m.a(asabus.o)
+ .debug_info    0x00000780      0xa59 main.o
+ .debug_info    0x000011d9      0x4b2 RC16M128_Lib.o
+ .debug_info    0x0000168b      0x4d1 D:\c4m\robot\robot\libc4m.a(device.o)
+ .debug_info    0x00001b5c      0x876 D:\c4m\robot\robot\libc4m.a(std_isr.o)
+ .debug_info    0x000023d2      0x7a7 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .debug_info    0x00002b79      0x7fc D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .debug_info    0x00003375      0x287 D:\c4m\robot\robot\libc4m.a(tim.o)
+ .debug_info    0x000035fc      0xaa6 D:\c4m\robot\robot\libc4m.a(isr.o)
+ .debug_info    0x000040a2      0x16d D:\c4m\robot\robot\libc4m.a(eeprom.o)
+ .debug_info    0x0000420f      0x14a D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+ .debug_info    0x00004359      0x14a D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+ .debug_info    0x000044a3      0x14a D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+ .debug_info    0x000045ed      0x166 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+ .debug_info    0x00004753      0x14a D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+ .debug_info    0x0000489d      0x14a D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+ .debug_info    0x000049e7      0x14a D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+ .debug_info    0x00004b31      0x353 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .debug_info    0x00004e84      0x246 D:\c4m\robot\robot\libc4m.a(stdio.o)
+ .debug_info    0x000050ca      0x234 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+ .debug_info    0x000052fe      0x440 D:\c4m\robot\robot\libc4m.a(asabus.o)
 
-.debug_abbrev   0x00000000     0x210e
+.debug_abbrev   0x00000000     0x217a
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x718 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
- .debug_abbrev  0x00000718      0x27c main.o
- .debug_abbrev  0x00000994      0x1bb RC16M128_Lib.o
- .debug_abbrev  0x00000b4f      0x174 D:\c4m\robot\robot\libc4m.a(device.o)
- .debug_abbrev  0x00000cc3      0x19e D:\c4m\robot\robot\libc4m.a(std_isr.o)
- .debug_abbrev  0x00000e61      0x2e0 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
- .debug_abbrev  0x00001141      0x22e D:\c4m\robot\robot\libc4m.a(hal_spi.o)
- .debug_abbrev  0x0000136f      0x13a D:\c4m\robot\robot\libc4m.a(tim.o)
- .debug_abbrev  0x000014a9       0xea D:\c4m\robot\robot\libc4m.a(isr.o)
- .debug_abbrev  0x00001593       0x9e D:\c4m\robot\robot\libc4m.a(eeprom.o)
- .debug_abbrev  0x00001631       0xb0 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
- .debug_abbrev  0x000016e1       0xb0 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
- .debug_abbrev  0x00001791       0xb0 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
- .debug_abbrev  0x00001841       0xb0 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
- .debug_abbrev  0x000018f1       0xb0 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
- .debug_abbrev  0x000019a1       0xb0 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
- .debug_abbrev  0x00001a51       0xb0 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
- .debug_abbrev  0x00001b01      0x1a3 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
- .debug_abbrev  0x00001ca4      0x1a7 D:\c4m\robot\robot\libc4m.a(stdio.o)
- .debug_abbrev  0x00001e4b      0x160 D:\c4m\robot\robot\libc4m.a(hal_time.o)
- .debug_abbrev  0x00001fab      0x163 D:\c4m\robot\robot\libc4m.a(asabus.o)
+ .debug_abbrev  0x00000718      0x2e8 main.o
+ .debug_abbrev  0x00000a00      0x1bb RC16M128_Lib.o
+ .debug_abbrev  0x00000bbb      0x174 D:\c4m\robot\robot\libc4m.a(device.o)
+ .debug_abbrev  0x00000d2f      0x19e D:\c4m\robot\robot\libc4m.a(std_isr.o)
+ .debug_abbrev  0x00000ecd      0x2e0 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .debug_abbrev  0x000011ad      0x22e D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .debug_abbrev  0x000013db      0x13a D:\c4m\robot\robot\libc4m.a(tim.o)
+ .debug_abbrev  0x00001515       0xea D:\c4m\robot\robot\libc4m.a(isr.o)
+ .debug_abbrev  0x000015ff       0x9e D:\c4m\robot\robot\libc4m.a(eeprom.o)
+ .debug_abbrev  0x0000169d       0xb0 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+ .debug_abbrev  0x0000174d       0xb0 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+ .debug_abbrev  0x000017fd       0xb0 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+ .debug_abbrev  0x000018ad       0xb0 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+ .debug_abbrev  0x0000195d       0xb0 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+ .debug_abbrev  0x00001a0d       0xb0 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+ .debug_abbrev  0x00001abd       0xb0 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+ .debug_abbrev  0x00001b6d      0x1a3 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .debug_abbrev  0x00001d10      0x1a7 D:\c4m\robot\robot\libc4m.a(stdio.o)
+ .debug_abbrev  0x00001eb7      0x160 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+ .debug_abbrev  0x00002017      0x163 D:\c4m\robot\robot\libc4m.a(asabus.o)
 
-.debug_line     0x00000000     0x3d28
+.debug_line     0x00000000     0x3cdd
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000       0x1a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
- .debug_line    0x0000001a      0x345 main.o
- .debug_line    0x0000035f      0x3ac RC16M128_Lib.o
- .debug_line    0x0000070b      0x142 D:\c4m\robot\robot\libc4m.a(device.o)
- .debug_line    0x0000084d      0x721 D:\c4m\robot\robot\libc4m.a(std_isr.o)
- .debug_line    0x00000f6e      0x9be D:\c4m\robot\robot\libc4m.a(hal_uart.o)
- .debug_line    0x0000192c      0x83d D:\c4m\robot\robot\libc4m.a(hal_spi.o)
- .debug_line    0x00002169      0x511 D:\c4m\robot\robot\libc4m.a(tim.o)
- .debug_line    0x0000267a      0x5eb D:\c4m\robot\robot\libc4m.a(isr.o)
- .debug_line    0x00002c65      0x103 D:\c4m\robot\robot\libc4m.a(eeprom.o)
- .debug_line    0x00002d68       0xe5 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
- .debug_line    0x00002e4d       0xe5 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
- .debug_line    0x00002f32       0xe5 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
- .debug_line    0x00003017       0xe7 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
- .debug_line    0x000030fe       0xe5 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
- .debug_line    0x000031e3       0xe5 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
- .debug_line    0x000032c8       0xe5 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
- .debug_line    0x000033ad      0x2ca D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
- .debug_line    0x00003677      0x1b8 D:\c4m\robot\robot\libc4m.a(stdio.o)
- .debug_line    0x0000382f      0x25b D:\c4m\robot\robot\libc4m.a(hal_time.o)
- .debug_line    0x00003a8a      0x29e D:\c4m\robot\robot\libc4m.a(asabus.o)
+ .debug_line    0x0000001a      0x2fa main.o
+ .debug_line    0x00000314      0x3ac RC16M128_Lib.o
+ .debug_line    0x000006c0      0x142 D:\c4m\robot\robot\libc4m.a(device.o)
+ .debug_line    0x00000802      0x721 D:\c4m\robot\robot\libc4m.a(std_isr.o)
+ .debug_line    0x00000f23      0x9be D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .debug_line    0x000018e1      0x83d D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .debug_line    0x0000211e      0x511 D:\c4m\robot\robot\libc4m.a(tim.o)
+ .debug_line    0x0000262f      0x5eb D:\c4m\robot\robot\libc4m.a(isr.o)
+ .debug_line    0x00002c1a      0x103 D:\c4m\robot\robot\libc4m.a(eeprom.o)
+ .debug_line    0x00002d1d       0xe5 D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+ .debug_line    0x00002e02       0xe5 D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+ .debug_line    0x00002ee7       0xe5 D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+ .debug_line    0x00002fcc       0xe7 D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+ .debug_line    0x000030b3       0xe5 D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+ .debug_line    0x00003198       0xe5 D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+ .debug_line    0x0000327d       0xe5 D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+ .debug_line    0x00003362      0x2ca D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .debug_line    0x0000362c      0x1b8 D:\c4m\robot\robot\libc4m.a(stdio.o)
+ .debug_line    0x000037e4      0x25b D:\c4m\robot\robot\libc4m.a(hal_time.o)
+ .debug_line    0x00003a3f      0x29e D:\c4m\robot\robot\libc4m.a(asabus.o)
 
-.debug_frame    0x00000000     0x1984
+.debug_frame    0x00000000     0x1958
  *(.debug_frame)
- .debug_frame   0x00000000      0x124 main.o
- .debug_frame   0x00000124       0xbc RC16M128_Lib.o
- .debug_frame   0x000001e0       0x24 D:\c4m\robot\robot\libc4m.a(device.o)
- .debug_frame   0x00000204      0x1d4 D:\c4m\robot\robot\libc4m.a(std_isr.o)
- .debug_frame   0x000003d8      0x16c D:\c4m\robot\robot\libc4m.a(hal_uart.o)
- .debug_frame   0x00000544      0x170 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
- .debug_frame   0x000006b4       0x54 D:\c4m\robot\robot\libc4m.a(tim.o)
- .debug_frame   0x00000708     0x1014 D:\c4m\robot\robot\libc4m.a(isr.o)
- .debug_frame   0x0000171c       0x34 D:\c4m\robot\robot\libc4m.a(eeprom.o)
- .debug_frame   0x00001750       0x64 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
- .debug_frame   0x000017b4       0x4c D:\c4m\robot\robot\libc4m.a(stdio.o)
- .debug_frame   0x00001800      0x100 D:\c4m\robot\robot\libc4m.a(hal_time.o)
- .debug_frame   0x00001900       0x84 D:\c4m\robot\robot\libc4m.a(asabus.o)
+ .debug_frame   0x00000000       0xf8 main.o
+ .debug_frame   0x000000f8       0xbc RC16M128_Lib.o
+ .debug_frame   0x000001b4       0x24 D:\c4m\robot\robot\libc4m.a(device.o)
+ .debug_frame   0x000001d8      0x1d4 D:\c4m\robot\robot\libc4m.a(std_isr.o)
+ .debug_frame   0x000003ac      0x16c D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .debug_frame   0x00000518      0x170 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .debug_frame   0x00000688       0x54 D:\c4m\robot\robot\libc4m.a(tim.o)
+ .debug_frame   0x000006dc     0x1014 D:\c4m\robot\robot\libc4m.a(isr.o)
+ .debug_frame   0x000016f0       0x34 D:\c4m\robot\robot\libc4m.a(eeprom.o)
+ .debug_frame   0x00001724       0x64 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .debug_frame   0x00001788       0x4c D:\c4m\robot\robot\libc4m.a(stdio.o)
+ .debug_frame   0x000017d4      0x100 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+ .debug_frame   0x000018d4       0x84 D:\c4m\robot\robot\libc4m.a(asabus.o)
 
-.debug_str      0x00000000     0x1953
+.debug_str      0x00000000     0x19bc
  *(.debug_str)
  .debug_str     0x00000000      0x27d c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51/crtatmega128.o
- .debug_str     0x0000027d      0x4a4 main.o
-                                0x5ed (size before relaxing)
- .debug_str     0x00000721      0x117 RC16M128_Lib.o
+ .debug_str     0x0000027d      0x4f4 main.o
+                                0x63d (size before relaxing)
+ .debug_str     0x00000771      0x130 RC16M128_Lib.o
                                 0x33b (size before relaxing)
- .debug_str     0x00000838      0x1f3 D:\c4m\robot\robot\libc4m.a(device.o)
+ .debug_str     0x000008a1      0x1f3 D:\c4m\robot\robot\libc4m.a(device.o)
                                 0x2dc (size before relaxing)
- .debug_str     0x00000a2b      0x12c D:\c4m\robot\robot\libc4m.a(std_isr.o)
+ .debug_str     0x00000a94      0x12c D:\c4m\robot\robot\libc4m.a(std_isr.o)
                                 0x5b9 (size before relaxing)
- .debug_str     0x00000b57      0x168 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .debug_str     0x00000bc0      0x168 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
                                 0x338 (size before relaxing)
- .debug_str     0x00000cbf      0x139 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .debug_str     0x00000d28      0x139 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
                                 0x3eb (size before relaxing)
- .debug_str     0x00000df8       0x26 D:\c4m\robot\robot\libc4m.a(tim.o)
+ .debug_str     0x00000e61       0x26 D:\c4m\robot\robot\libc4m.a(tim.o)
                                 0x17e (size before relaxing)
- .debug_str     0x00000e1e      0x84e D:\c4m\robot\robot\libc4m.a(isr.o)
+ .debug_str     0x00000e87      0x84e D:\c4m\robot\robot\libc4m.a(isr.o)
                                 0x972 (size before relaxing)
- .debug_str     0x0000166c       0x45 D:\c4m\robot\robot\libc4m.a(eeprom.o)
+ .debug_str     0x000016d5       0x45 D:\c4m\robot\robot\libc4m.a(eeprom.o)
                                 0x18e (size before relaxing)
- .debug_str     0x000016b1       0x3a D:\c4m\robot\robot\libc4m.a(ext_imp.o)
+ .debug_str     0x0000171a       0x3a D:\c4m\robot\robot\libc4m.a(ext_imp.o)
                                 0x192 (size before relaxing)
- .debug_str     0x000016eb        0xe D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
+ .debug_str     0x00001754        0xe D:\c4m\robot\robot\libc4m.a(pwm_imp.o)
                                 0x192 (size before relaxing)
- .debug_str     0x000016f9        0xe D:\c4m\robot\robot\libc4m.a(twi_imp.o)
+ .debug_str     0x00001762        0xe D:\c4m\robot\robot\libc4m.a(twi_imp.o)
                                 0x192 (size before relaxing)
- .debug_str     0x00001707        0xf D:\c4m\robot\robot\libc4m.a(uart_imp.o)
+ .debug_str     0x00001770        0xf D:\c4m\robot\robot\libc4m.a(uart_imp.o)
                                 0x1a9 (size before relaxing)
- .debug_str     0x00001716        0xe D:\c4m\robot\robot\libc4m.a(spi_imp.o)
+ .debug_str     0x0000177f        0xe D:\c4m\robot\robot\libc4m.a(spi_imp.o)
                                 0x192 (size before relaxing)
- .debug_str     0x00001724        0xe D:\c4m\robot\robot\libc4m.a(tim_imp.o)
+ .debug_str     0x0000178d        0xe D:\c4m\robot\robot\libc4m.a(tim_imp.o)
                                 0x192 (size before relaxing)
- .debug_str     0x00001732        0xe D:\c4m\robot\robot\libc4m.a(adc_imp.o)
+ .debug_str     0x0000179b        0xe D:\c4m\robot\robot\libc4m.a(adc_imp.o)
                                 0x192 (size before relaxing)
- .debug_str     0x00001740       0x52 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .debug_str     0x000017a9       0x52 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
                                 0x1fa (size before relaxing)
- .debug_str     0x00001792       0x76 D:\c4m\robot\robot\libc4m.a(stdio.o)
+ .debug_str     0x000017fb       0x76 D:\c4m\robot\robot\libc4m.a(stdio.o)
                                 0x1b0 (size before relaxing)
- .debug_str     0x00001808       0xb7 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+ .debug_str     0x00001871       0xb7 D:\c4m\robot\robot\libc4m.a(hal_time.o)
                                 0x208 (size before relaxing)
- .debug_str     0x000018bf       0x94 D:\c4m\robot\robot\libc4m.a(asabus.o)
+ .debug_str     0x00001928       0x94 D:\c4m\robot\robot\libc4m.a(asabus.o)
                                 0x2dc (size before relaxing)
 
-.debug_loc      0x00000000     0x390f
+.debug_loc      0x00000000     0x394a
  *(.debug_loc)
- .debug_loc     0x00000000      0x3eb main.o
- .debug_loc     0x000003eb      0x410 RC16M128_Lib.o
- .debug_loc     0x000007fb      0x89c D:\c4m\robot\robot\libc4m.a(hal_uart.o)
- .debug_loc     0x00001097      0x4ad D:\c4m\robot\robot\libc4m.a(hal_spi.o)
- .debug_loc     0x00001544      0x247 D:\c4m\robot\robot\libc4m.a(tim.o)
- .debug_loc     0x0000178b     0x1af6 D:\c4m\robot\robot\libc4m.a(isr.o)
- .debug_loc     0x00003281      0x130 D:\c4m\robot\robot\libc4m.a(eeprom.o)
- .debug_loc     0x000033b1      0x1be D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
- .debug_loc     0x0000356f       0xc0 D:\c4m\robot\robot\libc4m.a(stdio.o)
- .debug_loc     0x0000362f      0x283 D:\c4m\robot\robot\libc4m.a(hal_time.o)
- .debug_loc     0x000038b2       0x5d D:\c4m\robot\robot\libc4m.a(asabus.o)
+ .debug_loc     0x00000000      0x426 main.o
+ .debug_loc     0x00000426      0x410 RC16M128_Lib.o
+ .debug_loc     0x00000836      0x89c D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .debug_loc     0x000010d2      0x4ad D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .debug_loc     0x0000157f      0x247 D:\c4m\robot\robot\libc4m.a(tim.o)
+ .debug_loc     0x000017c6     0x1af6 D:\c4m\robot\robot\libc4m.a(isr.o)
+ .debug_loc     0x000032bc      0x130 D:\c4m\robot\robot\libc4m.a(eeprom.o)
+ .debug_loc     0x000033ec      0x1be D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .debug_loc     0x000035aa       0xc0 D:\c4m\robot\robot\libc4m.a(stdio.o)
+ .debug_loc     0x0000366a      0x283 D:\c4m\robot\robot\libc4m.a(hal_time.o)
+ .debug_loc     0x000038ed       0x5d D:\c4m\robot\robot\libc4m.a(asabus.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -1321,14 +1298,14 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000      0x1c0
+.debug_ranges   0x00000000      0x1c8
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x38 main.o
- .debug_ranges  0x00000038       0x40 RC16M128_Lib.o
- .debug_ranges  0x00000078       0xd0 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
- .debug_ranges  0x00000148       0x48 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
- .debug_ranges  0x00000190       0x18 D:\c4m\robot\robot\libc4m.a(tim.o)
- .debug_ranges  0x000001a8       0x18 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
+ .debug_ranges  0x00000000       0x40 main.o
+ .debug_ranges  0x00000040       0x40 RC16M128_Lib.o
+ .debug_ranges  0x00000080       0xd0 D:\c4m\robot\robot\libc4m.a(hal_uart.o)
+ .debug_ranges  0x00000150       0x48 D:\c4m\robot\robot\libc4m.a(hal_spi.o)
+ .debug_ranges  0x00000198       0x18 D:\c4m\robot\robot\libc4m.a(tim.o)
+ .debug_ranges  0x000001b0       0x18 D:\c4m\robot\robot\libc4m.a(hardware_interrupt.o)
 
 .debug_macro
  *(.debug_macro)

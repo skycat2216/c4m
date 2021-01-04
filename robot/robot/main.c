@@ -1,6 +1,7 @@
 #define F_CPU 11059200UL
 #include "c4mlib.h"
 #include "RC16M128_Lib.h"
+#include <string.h>
 
 
 void arm(int arm1);
@@ -14,6 +15,8 @@ unsigned char headmove[16] = {};
 
 void leg(int leg1);
 unsigned char legmove[16]= {};
+	
+unsigned char finalfnc[16]; //最後手段,直接全域變數
 
 void interpolation_method(uint8_t *start , uint8_t *final);
 //---------------------------------       左          左  左                 右  右          右
@@ -137,7 +140,7 @@ int main(void)
 		Initial[j]=offset_initial[j]+original[j];
 	}
 	
-	for (int i=0; i<=15;i++){
+/*	for (int i=0; i<=15;i++){
 		
 		Initial_low[i]=Initial[i]+offset_Initial_low[i];
 		
@@ -169,9 +172,37 @@ int main(void)
 		
 		
 		
-	}
+	}*/
 	
-	RC16M128_Servo_put( 0, 16, stand); //將初始位置輸出至各伺服機
+	
+	
+	arm(0);
+	waist(0);
+	leg(0);
+	head(0);
+	
+	unsigned char final_build();
+	unsigned char final();
+	unsigned char k[16] = {};
+	memcpy (j,finalfnc,16);
+	
+	arm(0);
+	waist(0);
+	leg(0);
+	head(0);
+	
+	final_build();
+	unsigned char j[16]={};
+	memcpy (j,finalfnc,16);
+	
+	
+	
+	
+	interpolation_method(k,j);
+	
+	
+	//RC16M128_Servo_put( 0, 16, stand); 
+	//將初始位置輸出至各伺服機
 	
 
 
@@ -208,14 +239,38 @@ void arm(int arm1)
 	{
 		case 1:
 		{
+			*p     = 45;  
+			*(p+1) = 45;
+			*(p+2) = -30;
+			*(p+3) = 45;
+			*(p+12)= 45;
+			*(p+13)= 30;
+			*(p+14)= -30;
+			*(p+15)= 45;
 			break;
 		}
 		case 2:
 		{
+			*p     = 45;
+			*(p+1) = 30;
+			*(p+2) = -30;
+			*(p+3) = 45;
+			*(p+12)= 45;
+			*(p+13)= 30;
+			*(p+14)= 45;
+			*(p+15)= 45;
 			break;
 		}
 		case 3:
 		{
+			*p     = 45;
+			*(p+1) = 45;
+			*(p+2) = 45;
+			*(p+3) = 45;
+			*(p+12)= 45;
+			*(p+13)= 45;
+			*(p+14)= 45;
+			*(p+15)= 45;
 			break;
 		}
 		default :
@@ -223,6 +278,8 @@ void arm(int arm1)
 			*p     = 45;
 			*(p+1) = 45;
 			*(p+2) = 45;
+			*(p+3) = 45;
+			*(p+12)= 45;
 			*(p+13)= 45;
 			*(p+14)= 45;
 			*(p+15)= 45;
@@ -233,22 +290,27 @@ void arm(int arm1)
 
 void waist(int waist1)
 {
+	unsigned char *p = waistmove;
 	switch (waist1)
 	{
 		case 1:
 		{
+			*(p+7)= 45;
 			break;
 		}
 		case 2:
 		{
+			*(p+7)= 45;
 			break;
 		}
 		case 3:
 		{
+			*(p+7)= 45;
 			break;
 		}
 		default :
 		{
+			*(p+7)= 45;
 			break;
 		}
 	}
@@ -256,22 +318,27 @@ void waist(int waist1)
 
 void head(int head1)
 {
+	unsigned char *p = headmove;
 	switch (head1)
 	{
 		case 1:
 		{
+			*(p+8)=45;
 			break;
 		}
 		case 2:
 		{
+			*(p+8)=45;
 			break;
 		}
 		case 3:
 		{
+			*(p+8)=45;
 			break;
 		}
 		default :
 		{
+			*(p+8)=45;
 			break;
 		}
 	}
@@ -279,24 +346,88 @@ void head(int head1)
 
 void leg(int leg1)
 {
+	unsigned char *p = legmove;
 	switch (leg1)
 	{
 		case 1:
 		{
+			*(p+4) = 45;
+			*(p+5) = 45;
+			*(p+6) = 45;
+			*(p+9) = 45;
+			*(p+10)= 45;
+			*(p+11)= 45;
 			break;
 		}
 		case 2:
 		{
+			*(p+4) = 45;
+			*(p+5) = 45;
+			*(p+6) = 45;
+			*(p+9) = 45;
+			*(p+10)= 45;
+			*(p+11)= 45;
 			break;
 		}
 		case 3:
 		{
+			*(p+4) = 45;
+			*(p+5) = 45;
+			*(p+6) = 45;
+			*(p+9) = 45;
+			*(p+10)= 45;
+			*(p+11)= 45;
 			break;
 		}
 		default :
 		{
+			*(p+4) = 45;
+			*(p+5) = 45;
+			*(p+6) = 45;
+			*(p+9) = 45;
+			*(p+10)= 45;
+			*(p+11)= 45;
 			break;
 		}
 	}
 }
+
+unsigned char *final_build()
+{
+	unsigned char *armp = armmove;
+	unsigned char *waistp = waistmove;
+	unsigned char *headp = headmove;
+	unsigned char *legp = legmove;
+	
+	
+	
+	for(int i=0;i<=15;i++)
+	{
+		switch(i)
+		{
+			case 0: case 1: case 2: case 3: case 12: case 13: case 14: case 15:
+			{
+				finalfnc[i] = *(armp+i);
+				break;
+			}
+			case 4: case 5: case 6: case 9: case 10: case 11:
+			{
+				finalfnc[i] = *(legp+i);
+				break;
+			}
+			case  7:
+			{
+				finalfnc[i] = *(waistp+i);
+				break;
+			}
+			case  8:
+			{
+				finalfnc[i] = *(headp+i);
+				break;
+			}
+		}
+	}	
+	return finalfnc;
+}
+
 
