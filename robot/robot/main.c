@@ -18,6 +18,13 @@ unsigned char legmove[16]= {};
 	
 unsigned char finalfnc[16]; //最後手段,直接全域變數
 
+void fuuuuuuuu(int f1 , int f2 , int u1 , int u2 , int c1 , int c2 , int k1 , int k2);
+
+
+
+
+
+
 void interpolation_method(uint8_t *start , uint8_t *final);
 //---------------------------------       左          左  左                 右  右          右
 //---------------------------------   左  手  左  左  大  小  左          右` 小  大  右  右  手  右
@@ -175,30 +182,7 @@ int main(void)
 	}*/
 	
 	
-	
-	arm(0);
-	waist(0);
-	leg(0);
-	head(0);
-	
-	unsigned char final_build();
-	unsigned char final();
-	unsigned char k[16] = {};
-	memcpy (j,finalfnc,16);
-	
-	arm(0);
-	waist(0);
-	leg(0);
-	head(0);
-	
-	final_build();
-	unsigned char j[16]={};
-	memcpy (j,finalfnc,16);
-	
-	
-	
-	
-	interpolation_method(k,j);
+
 	
 	
 	//RC16M128_Servo_put( 0, 16, stand); 
@@ -431,3 +415,28 @@ unsigned char *final_build()
 }
 
 
+void fuuuuuuuu(int f , int e , int r , int t , int m , int g , int v , int n)
+{
+		arm(f);
+		waist(e);
+		leg(r);
+		head(t);
+		
+		final_build();
+		unsigned char k[16] = {};
+		memcpy (k,finalfnc,16);
+		
+		arm(m);
+		waist(g);
+		leg(v);
+		head(n);
+		
+		final_build();
+		unsigned char j[16]={};
+		memcpy (j,finalfnc,16);
+		
+		
+		
+		
+		interpolation_method(k,j);
+}

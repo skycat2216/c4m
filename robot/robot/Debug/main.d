@@ -20,7 +20,8 @@ main.d main.o: .././main.c .././c4mlib.h \
  .././interrupt.cfg .././remo_reg.cfg .././twi.cfg .././uart.cfg \
  .././ext.cfg \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
- .././RC16M128_Lib.h
+ .././RC16M128_Lib.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h
 
 .././c4mlib.h:
 
@@ -81,3 +82,5 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h:
 
 .././RC16M128_Lib.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h:
